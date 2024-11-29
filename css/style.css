@@ -97,7 +97,7 @@ p{
 }
 .img-logo{
     width: 50px;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 10px;
 }
 .right-side ul{
@@ -106,7 +106,7 @@ p{
 }
 .right-side ul li a{
     text-decoration: none;
-    padding-left: 10px;
+    margin-right: 20px;
     color: #000;
 }
 
@@ -120,6 +120,7 @@ p{
 }
 .hero-content p{
     margin: 2% 25% 6% 25%;
+    font-size: 14px;
 
 }
 .hero-content a{
