@@ -7,7 +7,7 @@
 .my-body{
     width: 100%;
 }
-h3{
+.h3-blogs{
     margin-top: 20px;
     text-align: center;
     font-size: 25px;
@@ -35,7 +35,7 @@ h3{
     border-radius: 20px;
     margin-bottom: 10px;
 }
-p{
+.p-blogs{
     margin-top: 10px;
 }
 .btn{
@@ -116,7 +116,7 @@ p{
 .hero-content h1 span{
     color: blue;
 }
-.hero-content p{
+.hero-content .hero-text{
     margin: 2% 25% 6% 25%;
     font-size: 14px;
 
