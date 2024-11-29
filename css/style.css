@@ -1,3 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.my-body{
+    width: 100%;
+}
+.h3-blogs{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #222;
+}
+.blogs{
+    width: 90%;
+    /* padding: 0 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog{
+    width: 370px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog img{
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.p-blogs{
+    margin-top: 10px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* .div {
+    height: 100vh;
+    background: url('/class2project/img/pic1.jpg') center/cover no-repeat, 
+                rgba(4, 33, 196, 0.7); 
+    background-blend-mode: overlay; 
+} */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url('/class2project/img/coo.jpg') center/cover no-repeat, 
+                rgba(254, 254, 255, 0.8); 
+    background-blend-mode: overlay; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 90px;
+    /* background: red; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    
+}
+.search .fa-solid{
+    margin-top: 10px;
+}
+.search p{
+    margin-left: 12px;
+}
+.left-side .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+.img-logo{
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.right-side ul{
+    display: flex;
+    list-style: none;
+}
+.right-side ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+}
+
+/* hero content */
+.hero-content h1{
+    font-size: 70px;
+    margin: 4% 25% 0 25%;
+}
+.hero-content h1 span{
+    color: blue;
+}
+.hero-content .hero-text{
+    margin: 2% 25% 6% 25%;
+    font-size: 14px;
+
+}
+.hero-content a{
+    background: blue;
+    padding: 13px 20px;
+    margin:0 13%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.fa-twitter{
+    margin:0 20px;
+    font-size: 20px;
+}
+.fa-facebook-f{
+     margin-left: 5%;
+
+}
+
 /* ==== Sections ==== */
   body, h1, h2, h3, p, a, form, input, button {
     margin: 0;
@@ -134,3 +277,4 @@ footer h1{
     font-size: 32px;
     font-weight: 600;
 }
+
