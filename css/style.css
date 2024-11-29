@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -59,7 +60,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background: url('/class2project/img/coo.jpg') center/cover no-repeat, 
+    background: url('/img/coo.jpg') center/cover no-repeat, 
                 rgba(254, 254, 255, 0.8); 
     background-blend-mode: overlay; 
 }
@@ -139,3 +140,141 @@
      margin-left: 5%;
 
 }
+
+/* ==== Sections ==== */
+  body, h1, h2, h3, p, a, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    width: 100%;
+  }
+/* ==== Services ==== */
+#services{
+    background: linear-gradient(45deg, #00aaff, #0012ff);
+    color: white;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+#services h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.ser-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1;
+}
+.services{
+    /* background-color: white;
+    color: #0012ff; */
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+}
+.services h2 {
+    margin-bottom: 1rem;
+}
+.services a{
+    /* color: #0012ff; */
+    margin-top: 2rem;
+    padding-top: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+#case-study {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+  }
+  .case-study-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .case-study-content h2{
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+  .case-study-content h3{
+    font-size: 17px;
+    margin-bottom: 1rem;
+  }
+  .case-study-content a {
+    margin-top: 2rem;
+    color: #0012ff;
+    text-decoration: none;
+    border: 2px solid #0012ff;
+    padding: 0.5rem 0.5rem;
+    border-radius: 30px;
+    text-align: center;
+    width: 160px;
+  }
+  .case-study-image {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .case-study-image img {
+    max-width: 100%;
+    height: 100%;
+  }
+  #contact {
+    background: url('/img/intrior\ desgning.jpg') center/cover no-repeat, 
+    rgba(4, 33, 196, 1);
+    background-blend-mode: overlay;
+    color: white;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact form {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+  }
+  #contact input {
+    padding: 0.5rem;
+    width: 250px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+    outline: none;
+  }
+  #contact button {
+    padding: 0.2rem 2rem;
+    background: white;
+    color: #0012ff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;
+  }
+/* ==== footer ==== */
+footer h1{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
