@@ -60,7 +60,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background: url('/class2project/img/coo.jpg') center/cover no-repeat, 
+    background: url('/img/coo.jpg') center/cover no-repeat, 
                 rgba(254, 254, 255, 0.8); 
     background-blend-mode: overlay; 
 }
